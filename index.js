@@ -4,11 +4,11 @@ const taskMenu = document.getElementById("task");
 const subTaskMenu = document.getElementById("subtask");
 const execSummaryHeading = document.getElementById("exec-summary-heading");
 const executiveSummary = document.getElementById("summary");
-const motivationSummary = document.getElementById("motivation");
 const definitionBin = document.getElementById("definitions-content");
 const resourceBin = document.getElementById("resource-bin");
 const resourceBinHeading = document.getElementById("resources-heading")
 const toolWarehouse = document.getElementById("tool-warehouse");
+
 
 //Creates the search type variable by reading the HTML default radio option
 let searchTypeRadio = document.querySelector('input[name="search-type"]:checked').value;
